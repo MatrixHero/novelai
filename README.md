@@ -9,15 +9,15 @@
 ## 📸 体验截图
 
 ### 角色选择界面
-<img src="./screenshots/character-select.png" alt="角色选择界面" width="600" />
+<img src="./screenshots/character-select.png" alt="角色选择界面" width="400" />
 *选择你喜欢的角色开始对话*
 
 ### 对话界面
-<img src="./screenshots/chat-interface.png" alt="对话界面" width="600" />
+<img src="./screenshots/chat-interface.png" alt="对话界面" width="400" />
 *与角色进行智能对话*
 
 ### 深色主题
-<img src="./screenshots/dark-theme.png" alt="深色主题" width="600" />
+<img src="./screenshots/dark-theme.png" alt="深色主题" width="400" />
 *支持深色/浅色主题切换*
 
 ## 👥 角色设定
