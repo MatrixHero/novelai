@@ -1,4 +1,4 @@
-const DEEPSEEK_API_KEY = 'sk-5ad58c5a263f4155ba6b31fb3542046f';
+const DEEPSEEK_API_KEY = process.env.REACT_APP_DEEPSEEK_API_KEY;
 const DEEPSEEK_API_URL = 'https://api.deepseek.com/v1/chat/completions';
 
 export interface Character {

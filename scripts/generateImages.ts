@@ -1,8 +1,13 @@
-import fs from 'fs';
-import path from 'path';
+import axios from 'axios';
+import * as fs from 'fs';
+import * as path from 'path';
+import * as dotenv from 'dotenv';
 import { characters } from '../src/services/aiService';
 
-const STABILITY_API_KEY = 'sk-534PzDaIYdJO6ezi4IY6OUUAQ1riyqTi6M2y9w7gy9NZxpyH';
+// Load environment variables
+dotenv.config();
+
+const STABILITY_API_KEY = process.env.REACT_APP_IMAGE_GEN_API_KEY;
 const STABILITY_API_URL = 'https://api.stability.ai/v1/generation/stable-diffusion-xl-1024-v1-0/text-to-image';
 
 async function generateCharacterImage(character: { name: string; personality: string; background: string }): Promise<Buffer> {
